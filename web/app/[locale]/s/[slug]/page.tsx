@@ -84,6 +84,7 @@ function guessUpstreamFile(slug: string): string | null {
     "s02-command-registry": "s02-command.py",
     "s03-llm-provider": "s03-multi-provider.py",
     "s04-prompt-strategy": "s04-prompt-strategy.py",
+    "s05-episodic-history": "s05-action-history.py",
   };
   return map[slug] ?? null;
 }

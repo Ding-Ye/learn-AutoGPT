@@ -43,7 +43,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s05-episodic-history",
     num: "s05",
     title: { zh: "情节式动作历史", en: "Episodic action history" },
-    available: false,
+    available: true,
   },
   {
     slug: "s06-workspace",

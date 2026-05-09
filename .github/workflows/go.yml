@@ -24,6 +24,7 @@ jobs:
           - s02-command-registry
           - s03-llm-provider
           - s04-prompt-strategy
+          - s05-episodic-history
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

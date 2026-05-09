@@ -22,7 +22,7 @@ We deliberately leave `autogpt_platform/` alone (Polyform Shield license, outsid
 | s02 | [Explicit command registry](docs/en/s02-command-registry.md) | `forge/command/decorator.py` (@command) | ✅ |
 | s03 | [LLM provider with multiple backends](docs/en/s03-llm-provider.md) | `forge/llm/providers/multi.py` | ✅ |
 | s04 | [Prompt strategies & response parsing](docs/en/s04-prompt-strategy.md) | `agents/prompt_strategies/one_shot.py` | ✅ |
-| s05 | Episodic action history | `forge/components/action_history/` | ⏳ |
+| s05 | [Episodic action history](docs/en/s05-episodic-history.md) | `forge/components/action_history/` | ✅ |
 | s06 | Sandboxed workspace storage | `forge/file_storage/local.py` | ⏳ |
 | s07 | Layered permission system | `forge/permissions.py` | ⏳ |
 | s08 | Pluggable component system | `forge/agent/protocols.py` + `forge/components/` | ⏳ |
