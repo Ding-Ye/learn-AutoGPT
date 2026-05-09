@@ -25,6 +25,7 @@ jobs:
           - s03-llm-provider
           - s04-prompt-strategy
           - s05-episodic-history
+          - s06-workspace
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

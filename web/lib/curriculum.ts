@@ -49,7 +49,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s06-workspace",
     num: "s06",
     title: { zh: "沙箱化 Workspace", en: "Sandboxed workspace storage" },
-    available: false,
+    available: true,
   },
   {
     slug: "s07-permissions",
