@@ -61,7 +61,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s08-components",
     num: "s08",
     title: { zh: "可插拔 Component 系统", en: "Pluggable component system" },
-    available: false,
+    available: true,
   },
   {
     slug: "s09-continuous-mode",

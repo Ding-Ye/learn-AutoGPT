@@ -26,7 +26,7 @@
 | s05 | [情节式动作历史 / Episodic action history](docs/zh/s05-episodic-history.md) | `forge/components/action_history/` | ✅ |
 | s06 | [沙箱化 Workspace / Sandboxed workspace storage](docs/zh/s06-workspace.md) | `forge/file_storage/local.py` | ✅ |
 | s07 | [分层权限管理 / Layered permission system](docs/zh/s07-permissions.md) | `forge/permissions.py` | ✅ |
-| s08 | 可插拔 Component 系统 / Pluggable component system | `forge/agent/protocols.py` + `forge/components/` | ⏳ |
+| s08 | [可插拔 Component 系统 / Pluggable component system](docs/zh/s08-components.md) | `forge/agent/protocols.py` + `forge/components/` | ✅ |
 | s09 | 持续运行模式与 UI / Continuous mode & UI feedback | `app/main.py:655-768` (cycle budget + signal) | ⏳ |
 | s10 | Reflexion 与 AfterParse hooks / Reflexion & AfterParse pipeline | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ⏳ |
 | s_full | 端到端集成 / End-to-end integration | (16-step trace) | ⏳ |

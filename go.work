@@ -8,4 +8,5 @@ use (
 	./agents/s05-episodic-history
 	./agents/s06-workspace
 	./agents/s07-permissions
+	./agents/s08-components
 )

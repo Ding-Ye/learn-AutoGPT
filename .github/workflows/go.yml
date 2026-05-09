@@ -27,6 +27,7 @@ jobs:
           - s05-episodic-history
           - s06-workspace
           - s07-permissions
+          - s08-components
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
