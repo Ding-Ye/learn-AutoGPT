@@ -37,7 +37,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s04-prompt-strategy",
     num: "s04",
     title: { zh: "Prompt 策略与解析", en: "Prompt strategies & response parsing" },
-    available: false,
+    available: true,
   },
   {
     slug: "s05-episodic-history",

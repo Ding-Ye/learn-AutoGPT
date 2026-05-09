@@ -4,4 +4,5 @@ use (
 	./agents/s01-minimal-loop
 	./agents/s02-command-registry
 	./agents/s03-llm-provider
+	./agents/s04-prompt-strategy
 )

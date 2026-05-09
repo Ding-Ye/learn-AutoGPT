@@ -23,6 +23,7 @@ jobs:
           - s01-minimal-loop
           - s02-command-registry
           - s03-llm-provider
+          - s04-prompt-strategy
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

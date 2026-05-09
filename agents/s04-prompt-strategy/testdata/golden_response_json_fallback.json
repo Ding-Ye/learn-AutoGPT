@@ -1,0 +1,16 @@
+{
+  "_comment": "Anthropic-shape response WITHOUT a native tool_use block — the model emitted a fenced ```json {\"command\":..., \"args\":...} ``` block inside a text block instead. Smaller open-weight models (older llama, some vLLM checkpoints, occasionally local-served Mistral) do this when their tool-calling head isn't reliable. OneShotStrategy.ParseResponse falls back to fence regex, parses the JSON payload, and returns ActionProposal{Command, Args} the same shape the native path produces. The Loop then dispatches via runFallbackTool which synthesizes a tool_use_id and feeds the tool_result back as a normal user-role tool_result block.",
+  "id": "msg_s04_fallback",
+  "type": "message",
+  "role": "assistant",
+  "model": "local-llama-3.3",
+  "content": [
+    {
+      "type": "text",
+      "text": "I'll use the echo tool to repeat the message back.\n\n```json\n{\n  \"command\": \"echo\",\n  \"args\": {\n    \"message\": \"hi\"\n  }\n}\n```\n\nThat should do it."
+    }
+  ],
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "usage": {"input_tokens": 92, "output_tokens": 47}
+}

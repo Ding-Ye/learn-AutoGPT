@@ -1,0 +1,19 @@
+{
+  "_comment": "Anthropic-shape response with a native tool_use block. This is the HAPPY path: the model picked math.add(2,3) via the protocol-native channel. OneShotStrategy.ParseResponse lifts (Name, Input) directly into ActionProposal{Command, Args} and concatenates any sibling text blocks into Thoughts.",
+  "id": "msg_s04_native",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-sonnet-4-6",
+  "content": [
+    {"type": "text", "text": "I'll use the math tool to compute 2 + 3."},
+    {
+      "type": "tool_use",
+      "id": "toolu_s04_001",
+      "name": "math",
+      "input": {"operation": "add", "a": 2, "b": 3}
+    }
+  ],
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "usage": {"input_tokens": 78, "output_tokens": 31}
+}

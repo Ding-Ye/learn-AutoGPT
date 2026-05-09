@@ -22,7 +22,7 @@
 | s01 | [最小 think→act→observe 循环 / Minimal think→act→observe loop](docs/zh/s01-minimal-loop.md) | `app/main.py:run_interaction_loop` + `agents/agent.py:propose_action` | ✅ |
 | s02 | [显式命令注册表 / Explicit command registry](docs/zh/s02-command-registry.md) | `forge/command/decorator.py` (@command) | ✅ |
 | s03 | [LLM Provider 多后端 / LLM provider with multiple backends](docs/zh/s03-llm-provider.md) | `forge/llm/providers/multi.py` | ✅ |
-| s04 | Prompt 策略与解析 / Prompt strategies & response parsing | `agents/prompt_strategies/one_shot.py` | ⏳ |
+| s04 | [Prompt 策略与解析 / Prompt strategies & response parsing](docs/zh/s04-prompt-strategy.md) | `agents/prompt_strategies/one_shot.py` | ✅ |
 | s05 | 情节式动作历史 / Episodic action history | `forge/components/action_history/` | ⏳ |
 | s06 | 沙箱化 Workspace / Sandboxed workspace storage | `forge/file_storage/local.py` | ⏳ |
 | s07 | 分层权限管理 / Layered permission system | `forge/permissions.py` | ⏳ |
