@@ -1,0 +1,10 @@
+{
+  "id": "msg_01XYZ",
+  "role": "assistant",
+  "content": [
+    {"type": "text", "text": "I'll use the echo tool to verify the round-trip."},
+    {"type": "tool_use", "id": "toolu_01ABC", "name": "echo", "input": {"message": "hello from the agent"}}
+  ],
+  "stop_reason": "tool_use",
+  "usage": {"input_tokens": 42, "output_tokens": 23}
+}

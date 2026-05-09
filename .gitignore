@@ -1,0 +1,42 @@
+# Go build artifacts
+*.exe
+*.test
+*.out
+*.prof
+*.coverprofile
+agents/*/agent
+agents/*/s01
+agents/*/s02
+agents/*/s03
+agents/*/s04
+agents/*/s05
+agents/*/s06
+agents/*/s07
+agents/*/s08
+agents/*/s09
+agents/*/s10
+
+# Web / Node
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+package-lock.json
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Generator state (NOT for git)
+.learn/
+
+# Per-session local workspace dirs (created by agent runs in s06+)
+agents/*/workspace/
+
+# Env / secrets
+.env
+.env.local
+*.pem
