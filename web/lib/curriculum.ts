@@ -31,7 +31,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s03-llm-provider",
     num: "s03",
     title: { zh: "LLM Provider 多后端", en: "LLM provider with multiple backends" },
-    available: false,
+    available: true,
   },
   {
     slug: "s04-prompt-strategy",

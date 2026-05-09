@@ -20,7 +20,7 @@ We deliberately leave `autogpt_platform/` alone (Polyform Shield license, outsid
 |---|---|---|---|
 | s01 | [Minimal think→act→observe loop](docs/en/s01-minimal-loop.md) | `app/main.py:run_interaction_loop` + `agents/agent.py:propose_action` | ✅ |
 | s02 | [Explicit command registry](docs/en/s02-command-registry.md) | `forge/command/decorator.py` (@command) | ✅ |
-| s03 | LLM provider with multiple backends | `forge/llm/providers/multi.py` | ⏳ |
+| s03 | [LLM provider with multiple backends](docs/en/s03-llm-provider.md) | `forge/llm/providers/multi.py` | ✅ |
 | s04 | Prompt strategies & response parsing | `agents/prompt_strategies/one_shot.py` | ⏳ |
 | s05 | Episodic action history | `forge/components/action_history/` | ⏳ |
 | s06 | Sandboxed workspace storage | `forge/file_storage/local.py` | ⏳ |

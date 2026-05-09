@@ -22,6 +22,7 @@ jobs:
         session:
           - s01-minimal-loop
           - s02-command-registry
+          - s03-llm-provider
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
