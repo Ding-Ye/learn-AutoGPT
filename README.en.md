@@ -27,10 +27,11 @@ We deliberately leave `autogpt_platform/` alone (Polyform Shield license, outsid
 | s07 | [Layered permission system](docs/en/s07-permissions.md) | `forge/permissions.py` | ✅ |
 | s08 | [Pluggable component system](docs/en/s08-components.md) | `forge/agent/protocols.py` + `forge/components/` | ✅ |
 | s09 | [Continuous mode & UI feedback](docs/en/s09-continuous-mode.md) | `app/main.py:655-768` (cycle budget + signal) | ✅ |
-| s10 | Reflexion & AfterParse pipeline | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ⏳ |
-| s_full | End-to-end integration | (16-step trace) | ⏳ |
-| App. A | Classic vs Modern agent architectures | (mental model) | ⏳ |
-| App. B | Upstream source-reading map | (reference) | ⏳ |
+| s10 | [Reflexion & AfterParse pipeline](docs/en/s10-reflexion-hooks.md) | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ✅ |
+| s_full | [End-to-end integration](docs/en/s_full-integration.md) | (16-step trace) | ✅ |
+| App. A | [Classic vs Modern agent architectures](docs/en/appendix-a-classic-vs-modern.md) | (mental model) | ✅ |
+| App. B | [Upstream source-reading map](docs/en/appendix-b-upstream-map.md) | (reference) | ✅ |
+| **M** | [**Multi-model guide** (DeepSeek / Qwen / Moonshot / self-hosted)](docs/en/multi-model.md) | (8 LLM profiles, 1-flag swap) | ✅ |
 
 ## Quickstart
 

@@ -89,6 +89,7 @@ function guessUpstreamFile(slug: string): string | null {
     "s07-permissions": "s07-permissions.py",
     "s08-components": "s08-components.py",
     "s09-continuous-mode": "s09-interaction-loop.py",
+    "s10-reflexion-hooks": "s10-reflexion-protocols.py",
   };
   return map[slug] ?? null;
 }

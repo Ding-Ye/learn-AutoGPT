@@ -28,10 +28,11 @@
 | s07 | [分层权限管理 / Layered permission system](docs/zh/s07-permissions.md) | `forge/permissions.py` | ✅ |
 | s08 | [可插拔 Component 系统 / Pluggable component system](docs/zh/s08-components.md) | `forge/agent/protocols.py` + `forge/components/` | ✅ |
 | s09 | [持续运行模式与 UI / Continuous mode & UI feedback](docs/zh/s09-continuous-mode.md) | `app/main.py:655-768` (cycle budget + signal) | ✅ |
-| s10 | Reflexion 与 AfterParse hooks / Reflexion & AfterParse pipeline | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ⏳ |
-| s_full | 端到端集成 / End-to-end integration | (16-step trace) | ⏳ |
-| App. A | Classic vs 现代 Agent 架构 / Classic vs Modern agent architectures | (mental model) | ⏳ |
-| App. B | 上游源码导读地图 / Upstream source-reading map | (reference) | ⏳ |
+| s10 | [Reflexion 与 AfterParse hooks / Reflexion & AfterParse pipeline](docs/zh/s10-reflexion-hooks.md) | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ✅ |
+| s_full | [端到端集成 / End-to-end integration](docs/zh/s_full-integration.md) | (16-step trace) | ✅ |
+| App. A | [Classic vs 现代 Agent 架构 / Classic vs Modern agent architectures](docs/zh/appendix-a-classic-vs-modern.md) | (mental model) | ✅ |
+| App. B | [上游源码导读地图 / Upstream source-reading map](docs/zh/appendix-b-upstream-map.md) | (reference) | ✅ |
+| **M** | [**多模型接入指南** / Multi-model guide (DeepSeek / Qwen / Moonshot / 自托管)](docs/zh/multi-model.md) | (8 LLM profiles, 1-flag swap) | ✅ |
 
 ## 快速跑起来 · Quickstart
 
