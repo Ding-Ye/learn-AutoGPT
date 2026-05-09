@@ -24,7 +24,7 @@ We deliberately leave `autogpt_platform/` alone (Polyform Shield license, outsid
 | s04 | [Prompt strategies & response parsing](docs/en/s04-prompt-strategy.md) | `agents/prompt_strategies/one_shot.py` | ✅ |
 | s05 | [Episodic action history](docs/en/s05-episodic-history.md) | `forge/components/action_history/` | ✅ |
 | s06 | [Sandboxed workspace storage](docs/en/s06-workspace.md) | `forge/file_storage/local.py` | ✅ |
-| s07 | Layered permission system | `forge/permissions.py` | ⏳ |
+| s07 | [Layered permission system](docs/en/s07-permissions.md) | `forge/permissions.py` | ✅ |
 | s08 | Pluggable component system | `forge/agent/protocols.py` + `forge/components/` | ⏳ |
 | s09 | Continuous mode & UI feedback | `app/main.py:655-768` (cycle budget + signal) | ⏳ |
 | s10 | Reflexion & AfterParse pipeline | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ⏳ |

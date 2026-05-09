@@ -55,7 +55,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s07-permissions",
     num: "s07",
     title: { zh: "分层权限管理", en: "Layered permission system" },
-    available: false,
+    available: true,
   },
   {
     slug: "s08-components",

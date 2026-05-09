@@ -1,0 +1,16 @@
+{
+  "_comment": "s07 sample permissions config (we use JSON-shape for stdlib parsing; the file extension is .yaml only because that's what the plan called it — JSON is a YAML subset, so this parses as either). Drop a copy at ./permissions.json next to the binary to override the built-in defaults. Pattern format is `<command>: <arg-glob>` where * matches one path segment (no /) and ** matches any number of segments. DenyList is checked first — a narrow deny carves a hole out of a broad allow.",
+
+  "allow": [
+    "echo: **",
+    "math: **",
+    "read_file: **",
+    "write_file: **"
+  ],
+
+  "deny": [
+    "write_file: **/.ssh/**",
+    "write_file: **/.git/**",
+    "*: secret*"
+  ]
+}

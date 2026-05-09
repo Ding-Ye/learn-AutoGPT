@@ -7,4 +7,5 @@ use (
 	./agents/s04-prompt-strategy
 	./agents/s05-episodic-history
 	./agents/s06-workspace
+	./agents/s07-permissions
 )

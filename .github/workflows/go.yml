@@ -26,6 +26,7 @@ jobs:
           - s04-prompt-strategy
           - s05-episodic-history
           - s06-workspace
+          - s07-permissions
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
