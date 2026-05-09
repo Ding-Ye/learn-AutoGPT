@@ -20,7 +20,7 @@
 | # | 章节 / Chapter | 上游机制 | 状态 |
 |---|---|---|---|
 | s01 | [最小 think→act→observe 循环 / Minimal think→act→observe loop](docs/zh/s01-minimal-loop.md) | `app/main.py:run_interaction_loop` + `agents/agent.py:propose_action` | ✅ |
-| s02 | 显式命令注册表 / Explicit command registry | `forge/command/decorator.py` (@command) | ⏳ |
+| s02 | [显式命令注册表 / Explicit command registry](docs/zh/s02-command-registry.md) | `forge/command/decorator.py` (@command) | ✅ |
 | s03 | LLM Provider 多后端 / LLM provider with multiple backends | `forge/llm/providers/multi.py` | ⏳ |
 | s04 | Prompt 策略与解析 / Prompt strategies & response parsing | `agents/prompt_strategies/one_shot.py` | ⏳ |
 | s05 | 情节式动作历史 / Episodic action history | `forge/components/action_history/` | ⏳ |

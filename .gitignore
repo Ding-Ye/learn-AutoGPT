@@ -22,7 +22,6 @@ node_modules/
 out/
 .vercel/
 *.tsbuildinfo
-package-lock.json
 
 # IDE / OS
 .DS_Store

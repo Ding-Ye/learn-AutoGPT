@@ -1,0 +1,10 @@
+{
+  "id": "msg_02ABC",
+  "role": "assistant",
+  "content": [
+    {"type": "text", "text": "I'll use the math tool to compute 2 + 3."},
+    {"type": "tool_use", "id": "toolu_02DEF", "name": "math", "input": {"operation": "add", "a": 2, "b": 3}}
+  ],
+  "stop_reason": "tool_use",
+  "usage": {"input_tokens": 58, "output_tokens": 27}
+}

@@ -25,7 +25,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s02-command-registry",
     num: "s02",
     title: { zh: "显式命令注册表", en: "Explicit command registry" },
-    available: false,
+    available: true,
   },
   {
     slug: "s03-llm-provider",
