@@ -88,6 +88,7 @@ function guessUpstreamFile(slug: string): string | null {
     "s06-workspace": "s06-file-storage.py",
     "s07-permissions": "s07-permissions.py",
     "s08-components": "s08-components.py",
+    "s09-continuous-mode": "s09-interaction-loop.py",
   };
   return map[slug] ?? null;
 }

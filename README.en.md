@@ -26,7 +26,7 @@ We deliberately leave `autogpt_platform/` alone (Polyform Shield license, outsid
 | s06 | [Sandboxed workspace storage](docs/en/s06-workspace.md) | `forge/file_storage/local.py` | ✅ |
 | s07 | [Layered permission system](docs/en/s07-permissions.md) | `forge/permissions.py` | ✅ |
 | s08 | [Pluggable component system](docs/en/s08-components.md) | `forge/agent/protocols.py` + `forge/components/` | ✅ |
-| s09 | Continuous mode & UI feedback | `app/main.py:655-768` (cycle budget + signal) | ⏳ |
+| s09 | [Continuous mode & UI feedback](docs/en/s09-continuous-mode.md) | `app/main.py:655-768` (cycle budget + signal) | ✅ |
 | s10 | Reflexion & AfterParse pipeline | `agents/prompt_strategies/reflexion.py` + `forge/agent/protocols.py` (AfterParse) | ⏳ |
 | s_full | End-to-end integration | (16-step trace) | ⏳ |
 | App. A | Classic vs Modern agent architectures | (mental model) | ⏳ |

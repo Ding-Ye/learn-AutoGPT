@@ -1,0 +1,19 @@
+{
+  "_comment": "Anthropic-shape response identical to s08's; s09 doesn't change the wire format. The wrapper's cycle budgeting + signal handling are orthogonal to provider responses. Verbose mode now prefixes its turn-traces with the spinner ('[busy] Thinking...') and writes RenderThought / RenderResult to stderr — the JSON itself is the same shape Loop.runStep already consumes.",
+  "id": "msg_s09_interaction_loop",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-sonnet-4-6",
+  "content": [
+    {"type": "text", "text": "I'll fetch the URL and then summarize the body."},
+    {
+      "type": "tool_use",
+      "id": "toolu_s09_001",
+      "name": "web_fetch",
+      "input": {"url": "https://example.com"}
+    }
+  ],
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "usage": {"input_tokens": 124, "output_tokens": 41}
+}

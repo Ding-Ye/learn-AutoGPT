@@ -9,4 +9,5 @@ use (
 	./agents/s06-workspace
 	./agents/s07-permissions
 	./agents/s08-components
+	./agents/s09-continuous-mode
 )

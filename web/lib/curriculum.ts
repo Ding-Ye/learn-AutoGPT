@@ -67,7 +67,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s09-continuous-mode",
     num: "s09",
     title: { zh: "持续运行模式与 UI", en: "Continuous mode & UI feedback" },
-    available: false,
+    available: true,
   },
   {
     slug: "s10-reflexion-hooks",

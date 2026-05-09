@@ -1,0 +1,12 @@
+{
+  "_comment": "Sample permissions for s08-components. JSON-only; the .yaml extension is a remnant of the upstream YAML convention. Tools come from FileManagerComponent (read_file, write_file) and WebFetchComponent (web_fetch). The deny rule blocks writes into hidden config dirs like .ssh/.",
+  "allow": [
+    "read_file: **",
+    "write_file: **",
+    "web_fetch: **"
+  ],
+  "deny": [
+    "write_file: **/.ssh/**",
+    "write_file: **/.aws/**"
+  ]
+}
